@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "148422788180",
+    "firebase_url": "https://tablepalv1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tablepalv1",
+    "storage_bucket": "tablepalv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148422788180:android:8b25d089ca25f13ab699c1",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIKzHT8pt3HHG2oULgudEJVshFj4BJdLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148422788180:android:5403944ddf947fe5b699c1",
+        "android_client_info": {
+          "package_name": "com.example.tablepalv1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIKzHT8pt3HHG2oULgudEJVshFj4BJdLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

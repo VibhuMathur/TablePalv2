@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cart">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+        <!--  Toolbar  -->
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:background="?attr/colorPrimary" android:elevation="4dp" android:minHeight="?attr/actionBarSize" android:theme="?attr/actionBarTheme"/>
+        <!--  Cart Items  -->
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewCart" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar" android:padding="16dp" android:clipToPadding="false" android:scrollbars="vertical"/>
+        <!--  Total Price  -->
+        <TextView android:id="@+id/textViewTotalPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="16dp" android:text="Total: $0.00" android:textSize="18sp" android:textStyle="bold"/>
+        <!--  Checkout Button  -->
+        <Button android:id="@+id/btnCheckout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/textViewTotalPrice" android:layout_marginBottom="16dp" android:text="Checkout" android:textSize="16sp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Remove_Item">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+        <!--  Page Title  -->
+        <TextView android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remove Item" android:textSize="24sp" android:textStyle="bold" android:layout_centerHorizontal="true" android:layout_marginTop="32dp"/>
+        <!--  Name of Item Field  -->
+        <EditText android:id="@+id/editTextName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/textViewTitle" android:layout_marginTop="32dp" android:hint="Name of Item"/>
+        <!--  Remove Button  -->
+        <Button android:id="@+id/buttonRemove" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Remove" android:layout_below="@id/editTextName" android:layout_marginTop="32dp" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

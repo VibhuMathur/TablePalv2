@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Items">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+        <!--  Page Title  -->
+        <TextView android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Item" android:textSize="24sp" android:textStyle="bold" android:layout_centerHorizontal="true" android:layout_marginTop="32dp"/>
+        <!--  Name of Item Field  -->
+        <EditText android:id="@+id/editTextName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/textViewTitle" android:layout_marginTop="32dp" android:hint="Name of Item"/>
+        <!--  Description Field  -->
+        <EditText android:id="@+id/editTextDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/editTextName" android:layout_marginTop="16dp" android:hint="Description"/>
+        <!--  Price Field  -->
+        <EditText android:id="@+id/editTextPrice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/editTextDescription" android:layout_marginTop="16dp" android:hint="Price" android:inputType="numberDecimal"/>
+        <!--  Time for Preparation Field  -->
+        <EditText android:id="@+id/editTextPreparationTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/editTextPrice" android:layout_marginTop="16dp" android:hint="Time for Preparation (in minutes)" android:inputType="number"/>
+        <!--  Submit Button  -->
+        <Button android:id="@+id/buttonSubmit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Submit" android:layout_below="@id/editTextPreparationTime" android:layout_marginTop="32dp" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
